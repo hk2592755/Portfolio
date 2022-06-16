@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/logo.png"
+// import logo from "../pic/logo2.png"
 
 const Header = () => {
   // fixed Header
@@ -15,7 +15,7 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo'>
-            <img src={logo} alt='' />
+            {/* <img src={logo} alt='' /> */}
           </div>
 
           <div className='navlink'>
@@ -36,9 +36,9 @@ const Header = () => {
               <li>
                 <a href='#clients'>clients</a>
               </li>
-              <li>
+              {/* <li>
                 <a href='#blog'>blog</a>
-              </li>
+              </li> */}
               <li>
                 <a href='#contact'>contact</a>
               </li>

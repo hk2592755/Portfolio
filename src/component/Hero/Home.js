@@ -1,10 +1,11 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
+import hero from "../pic/img1.png"
+import skill1 from "../pic/laravel.png"
+import skill2 from "../pic/core.png"
+import skill3 from "../pic/android.png"
 import { Typewriter } from "react-simple-typewriter"
+import Resume from "./resume.pdf"
 
 const Home = () => {
   return (
@@ -25,10 +26,11 @@ const Home = () => {
 
             <p>I am Laravel and .Net Core developer with experience in web development, producting the Quality work.</p>
             <br />
-
+            <a href={Resume} download>
             <li>
-                <button className='home-btn'>Hire Me</button>
+                <button className='home-btn'>Download CV</button>
               </li>
+              </a>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
